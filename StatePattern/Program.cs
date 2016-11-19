@@ -41,7 +41,7 @@ namespace StatePattern
         {
             var result = 50 * overtime;
             var summarySalary = salary + result;
-            Console.WriteLine(dev._name + "- current salary : " + salary + " with " + overtime + " overtime");
+            Console.WriteLine(dev._name + "- current salary : " + summarySalary + " with " + overtime + " overtime");
         }
 
         public void Promote(Employee dev)
